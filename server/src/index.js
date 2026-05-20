@@ -5,6 +5,7 @@ import { env } from './config/env.js';
 import { connectDB } from './config/db.js';
 import routes from './routes/index.js';
 import { errorHandler } from './middleware/error.middleware.js';
+import { env } from './config/env.js';
 
 const app = express();
 
