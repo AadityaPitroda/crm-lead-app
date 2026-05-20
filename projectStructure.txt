@@ -1,0 +1,166 @@
+crm-leads-app/
+  README.md
+
+  server/
+    package.json
+    .env
+    src/
+      index.js
+      config/
+        env.js
+        db.js
+      models/
+        Lead.js
+        User.js
+      routes/
+        index.js
+        leads.routes.js
+        auth.routes.js
+        search.routes.js
+      controllers/
+        leads.controller.js
+        auth.controller.js
+        search.controller.js
+      services/
+        leads.service.js
+        auth.service.js
+        search.service.js
+      middleware/
+        auth.middleware.js
+        error.middleware.js
+      utils/
+        ApiError.js
+        asyncHandler.js
+      seed/
+        seedLeads.js
+
+  client/
+    index.html
+    vite.config.js
+    package.json
+    .env
+    src/
+      main.jsx
+      App.jsx
+      api/
+        axiosClient.js
+        leadsApi.js
+        authApi.js
+        searchApi.js
+      context/
+        AuthContext.jsx
+      hooks/
+        useDebouncedValue.js
+      components/
+        layout/
+          Layout.jsx
+          Header.jsx
+        leads/
+          LeadsPage.jsx
+          LeadsTable.jsx
+          LeadsFilters.jsx
+        common/
+          PaginationControls.jsx
+          StatusBadge.jsx
+      search/
+        GlobalSearch.jsx
+      pages/
+        LoginPage.jsx
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+crm-leads-app/
+├── README.md
+│
+├── server/
+│   ├── package.json
+│   ├── .env
+│   │
+│   └── src/
+│       ├── index.js
+│       │
+│       ├── config/
+│       │   ├── env.js
+│       │   └── db.js
+│       │
+│       ├── models/
+│       │   ├── Lead.js
+│       │   └── User.js
+│       │
+│       ├── routes/
+│       │   ├── index.js
+│       │   ├── leads.routes.js
+│       │   ├── auth.routes.js
+│       │   └── search.routes.js
+│       │
+│       ├── controllers/
+│       │   ├── leads.controller.js
+│       │   ├── auth.controller.js
+│       │   └── search.controller.js
+│       │
+│       ├── services/
+│       │   ├── leads.service.js
+│       │   ├── auth.service.js
+│       │   └── search.service.js
+│       │
+│       ├── middleware/
+│       │   ├── auth.middleware.js
+│       │   └── error.middleware.js
+│       │
+│       ├── utils/
+│       │   ├── ApiError.js
+│       │   └── asyncHandler.js
+│       │
+│       └── seed/
+│           └── seedLeads.js
+│
+└── client/
+    ├── index.html
+    ├── vite.config.js
+    ├── package.json
+    ├── .env
+    │
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        │
+        ├── api/
+        │   ├── axiosClient.js
+        │   ├── leadsApi.js
+        │   ├── authApi.js
+        │   └── searchApi.js
+        │
+        ├── context/
+        │   └── AuthContext.jsx
+        │
+        ├── hooks/
+        │   └── useDebouncedValue.js
+        │
+        ├── components/
+        │   ├── layout/
+        │   │   ├── Layout.jsx
+        │   │   └── Header.jsx
+        │   │
+        │   ├── leads/
+        │   │   ├── LeadsPage.jsx
+        │   │   ├── LeadsTable.jsx
+        │   │   └── LeadsFilters.jsx
+        │   │
+        │   └── common/
+        │       ├── PaginationControls.jsx
+        │       └── StatusBadge.jsx
+        │
+        ├── search/
+        │   └── GlobalSearch.jsx
+        │
+        └── pages/
+            └── LoginPage.jsx
